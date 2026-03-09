@@ -18,12 +18,11 @@ class Plane(Vehicle):
 
     def __init__(self, weight, fuel, fuel_consumption, max_cargo):
         """
-        Инициализация самолета.
-
-        :param weight: вес самолета
-        :param fuel: количество топлива
-        :param fuel_consumption: расход топлива
-        :param max_cargo: максимальная грузоподъемность
+        Инициализация самолета:
+        weight: вес самолета
+        fuel: количество топлива
+        fuel_consumption: расход топлива
+        max_cargo: максимальная грузоподъемность
         """
 
         super().__init__(weight, fuel, fuel_consumption)
