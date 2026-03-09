@@ -16,11 +16,10 @@ class Vehicle(ABC):
 
     def __init__(self, weight, fuel, fuel_consumption):
         """
-        Вызываем при создании экземпляра класса транспортного средства.
-
-        :param weight: вес транспортного средства
-        :param fuel: количество топлива в баке
-        :param fuel_consumption: расход топлива
+        Вызывается при создании экземпляра класса транспортного средства.
+        weight: вес транспортного средства
+        fuel: количество топлива в баке
+        fuel_consumption: расход топлива
         """
         self.weight = weight
         self.fuel = fuel
